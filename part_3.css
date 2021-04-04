@@ -1,0 +1,41 @@
+.third-page {
+  position: absolute;
+  top: 1350px;
+  left: 0px;
+  width: 1270px;
+  height: fit-content;
+  background-attachment: fixed;
+  background-image: url(https://images.wallpapersden.com/image/download/hacker-anonymous-evil_bGZuZWeUmZqaraWkpJRmbmdlrWZlbWU.jpg);
+  background-size: cover;
+  opacity: 0.9;
+  /* background-blend-mode:overlay; */
+  filter: contrast(1.25);
+  color: white;
+}
+
+.third-page p {
+  /* padding-top: -30px; */
+  width: fit-content;
+  height: fit-content;
+  padding-left: 50px;
+  padding-right: 420px;
+  /* border: 2px solid white; */
+}
+
+.sub-head {
+  justify-content: left;
+  align-items: none;
+  padding: 50px;
+  padding-top: 35px;
+  padding-bottom: 8px;
+}
+
+.go-to-links {
+  color: red;
+  text-decoration: none;
+}
+
+.go-to-links:hover{
+    text-decoration: underline;
+}
+

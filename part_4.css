@@ -1,0 +1,14 @@
+.forth-page {
+  position: absolute;
+  top: 2165px;
+  left: 0px;
+  width: 1270px;
+  height: 660px;
+  background-attachment: fixed;
+  background-image: url(https://images.unsplash.com/photo-1544890225-2f3faec4cd60?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8aGFja2VyfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80);
+  background-size: cover;
+  opacity: 0.9;
+  /* background-blend-mode:overlay; */
+  filter: contrast(1.25);
+  color: white;
+}

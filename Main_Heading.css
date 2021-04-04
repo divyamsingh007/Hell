@@ -1,0 +1,115 @@
+body {
+  color: white;
+  font-size: 19px;
+  word-spacing: 1px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+  /* background-color: aquamarine; */
+  height: 5000px;
+  /* display: flex; */
+}
+
+abbr{
+  text-decoration: underline;
+}
+abbr:hover{
+  cursor: pointer;
+}
+
+/* h1,h2,h3,h4,h5,h6{
+  text-transform: capitalize;
+} */
+
+h1 {
+  padding-top: 30px;
+  /* margin: 20px; */
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxCover {
+  position: absolute;
+  width: 1270px;
+  height: 690px;
+  /* background-color: burlywood; */
+  /* background-attachment: fixed; */
+  background-image: url(https://culturetech.co/wp-content/uploads/2017/09/Hackers.jpg);
+  background-size: cover;
+  filter: contrast(1.5) ;
+}
+
+.blackBox {
+  position: absolute;
+  width: 685px;
+  height: 150px;
+  top: 260px;
+  left: -20px;
+  margin-top: auto;
+  background-color: transparent;
+  border-radius: 20px;
+  animation-name: inbox;
+  animation-duration: 1s;
+  /* animation-delay: 2s; */
+  animation-fill-mode: forwards;
+  padding-top: 10px;
+  padding-right: 10px;
+  text-align: right;
+  color: rgb(252, 0, 0);
+  font-size: 120px;
+  font-family: "Syne Mono", monospace;
+}
+
+@keyframes inbox {
+  0% {
+    left: -700px;
+  }
+  100% {
+    left: -20px;
+  }
+}
+
+.main-fade-in {
+  opacity: 0;
+  animation-name: text-in-1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text-in-1 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.whiteBox {
+  position: absolute;
+  width: fit-content;
+  height: 100px;
+  top: 295px;
+  right: 425px;
+  background-color: transparent;
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  font-size: 120px;
+  animation-name: text-in-2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text-in-2 {
+  0% {
+    opacity: 0;
+    top: -100px;
+  }
+  100% {
+    opacity: 1;
+    top: 295px;
+  }
+}
